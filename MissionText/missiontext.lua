@@ -1,5 +1,5 @@
-RegisterNetEvent("BASE:missiontext")
-AddEventHandler("BASE:missiontext", function(text, time)
+RegisterNetEvent("mt:missiontext")
+AddEventHandler("mt:missiontext", function(text, time)
         ClearPrints()
         SetTextEntry_2("STRING")
         AddTextComponentString(text)
